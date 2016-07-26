@@ -1,0 +1,103 @@
+127.0.0.1 [ 2016-06-27T09:57:58+08:00 ] 127.0.0.1 /JPushTestWeb/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021731s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000617s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000550s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000442s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002344s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000707s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000754s ]
+
+127.0.0.1 [ 2016-06-27T09:58:46+08:00 ] 127.0.0.1 /JPushTestWeb/JPush/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001524s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001653s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+ERR: 无法加载模块:JPushTestWeb
+
+127.0.0.1 [ 2016-06-27T09:58:54+08:00 ] 127.0.0.1 /JPushTestWeb/JPush/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001572s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001697s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+ERR: 无法加载模块:JPushTestWeb
+
+127.0.0.1 [ 2016-06-27T09:59:37+08:00 ] 127.0.0.1 /JPushTestWeb/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019158s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000660s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000623s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000540s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002667s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000792s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000840s ]
+
+127.0.0.1 [ 2016-06-27T10:00:02+08:00 ] 127.0.0.1 /JPushTestWeb/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014596s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000721s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000606s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000550s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002827s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000964s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001043s ]
+
+127.0.0.1 [ 2016-06-27T10:00:03+08:00 ] 127.0.0.1 /JPushTestWeb/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008314s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000661s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000595s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000507s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002543s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000765s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000810s ]
+
+127.0.0.1 [ 2016-06-27T10:00:04+08:00 ] 127.0.0.1 /JPushTestWeb/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013571s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000600s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000509s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000420s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002334s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000688s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000843s ]
+
