@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script src="./main.js"></script>
+<script src="../jquery-1.9.0.min.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+	$(function(){
+		var regx=/user\d/g;
+		var str='user1sdfsffuser2dfsdf';
+		var rs=str.match(regx);//此时rs的值为{user1}
+		var rs2=str.match(regx);//此时rs的值依然为{user1}
+		console.log(rs);
+		//如果regx=/user\d/g，则rs的值为["user1", "user2"]，rs2的值也为["user1", "user2"]
+		var strr = 111;
+		alert(isNumber(strr));
+	})
+	</script>
+</body>
+</html>

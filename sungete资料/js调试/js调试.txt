@@ -1,0 +1,3 @@
+(1)console.log() 方法
+	如果浏览器支持调试，你可以使用 console.log() 方法在调试窗口上打印 JavaScript 值：
+(2)
