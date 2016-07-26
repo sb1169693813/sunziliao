@@ -1,0 +1,37 @@
+	// 添加学生处理
+	public function studentAddHandle()
+	{
+		import('ORG.Net.UploadFile');	// 引入UploadFile类
+
+		$file 		=	new UploadFile();
+		$file 		->	savePath 	=	'./Public/';	// 文件保存路径
+
+		if (!$file 	->	upload())	$this	->	error($file 	->	getErrorMsg());		// 文件是否上传成功
+
+		$file_info 		=	$file 	->	getUploadFileInfo();	// 文件上传成功后的详细信息
+		$file_suffix	=	$file_info[0]['extension'];		// 文件后缀名
+		$file_dir 		=	$file_info[0]['savepath'] . $file_info[0]['savename'];  // 上传的文件位置
+
+		import('@.Myclass.ExcelToArray');
+
+		$excel 		=	new ExcelToArray();
+		$excelData	=	$excel 		->	read($file_dir, 'UTF-8', $file_suffix);	// 读取Excel数据，返回二维数组
+
+		unlink($file_dir);	// 删除文件
+
+		// 创建二维数组
+		foreach ($excelData as $key => $value) 
+		{
+			$key  =	$key - 1;	// 索引从0开始
+
+			$students[$key]['studentNo']		=	$value[0];
+			$students[$key]['studentPassword']	=	$value[0];
+			$students[$key]['studentName']		=	$value[1];
+			$students[$key]['studentClass']		=	$value[2];
+		}
+
+		if (M('student')	->	addAll($students))
+			$this			->	success('数据导入成功。');
+		else
+			$this 			->	error('数据重复，导入失败！');
+	}

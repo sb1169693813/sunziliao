@@ -1,0 +1,32 @@
+	// 数据导出
+	public function answerExport()
+	{
+		import('@.Myclass.ArrayToExcel');
+
+		$excel 		=	new ArrayToExcel();
+
+		$xlsName 	=	'Score';
+		$xlsCell	=	array(
+			array('studentNo', '学号'),
+			array('studentName', '姓名'),
+			array('studentClass', '班级'),
+			array('testName', '试卷名'),
+			array('score', '分数'),
+			array('submitTime', '提交时间')
+			);
+		$xlsData	=	M('answer')	
+								->	join('exam_test ON exam_test.testId = exam_answer.testId')
+								->	join('exam_student ON exam_student.studentNo = exam_answer.studentNo')
+								->	field(array(
+									'exam_student.studentNo',
+									'exam_student.studentName',
+									'exam_student.studentClass',
+									'exam_answer.score',
+									'exam_answer.submitTime',
+									'exam_test.testName'
+									))
+								->	order('convert(exam_student.studentClass USING gb2312),exam_student.studentClass')
+								->	select();
+
+		$excel 		->	exportExcel($xlsName, $xlsCell, $xlsData);
+	}
