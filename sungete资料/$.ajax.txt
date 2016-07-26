@@ -1,0 +1,18 @@
+$.ajax({
+  url: url,
+  data: data,
+  success: success,
+  dataType: dataType
+});
+
+
+$.ajax({
+  url:'',
+  data:{},
+  type:'post',
+  success:function(data){
+
+  },
+  dataType: 'json'
+});
+
