@@ -1,0 +1,7 @@
+把.app拷贝到Applications目录下，就能看到图标了
+
+http://dev.mysql.com/downloads/workbench/
+
+phpstorm:
+http://pan.baidu.com/s/1jIrXZ4y
+
