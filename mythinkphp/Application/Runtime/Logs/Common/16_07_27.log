@@ -1,0 +1,15 @@
+[ 2016-07-27T09:48:37+08:00 ] 127.0.0.1 /mythinkphp/Index/index/read/id=1
+ERR: 无法加载模块:Index
+
+[ 2016-07-27T09:48:53+08:00 ] 127.0.0.1 /mythinkphp/Index/index/read/id/5
+ERR: 无法加载模块:Index
+
+[ 2016-07-27T09:49:18+08:00 ] 127.0.0.1 /mythinkphp/Index/read/id/5
+ERR: 无法加载模块:Index
+
+[ 2016-07-27T09:49:58+08:00 ] 127.0.0.1 /mythinkphp/Index/index
+ERR: 无法加载模块:Index
+
+[ 2016-07-27T09:56:26+08:00 ] 127.0.0.1 /mythinkphp//Index/read/id/4
+ERR: 无法加载模块:Index
+
