@@ -1,0 +1,18 @@
+（1）date格式:
+	date('YmdHis',strtotime($loglist['date']))
+（2）图片视频加前缀:
+（3）联表查询：  需要查什么字段  在select后 加要查的字段名，不要用*
+（4）所有的if判断都写在前面
+(5):	$conn->startTrans();//开启事务回滚
+	$conn->rollback();
+	return false;//事务回滚
+	//提交事务
+	$conn->commit();
+(6)面向对象的思想：比如：$userDevice = $userDeviceList[0];二维数组中的第一条数据看成一个对象。
+(7)date('YmdHis',strtotime($birthday))
+(8)//JavaScript for/in 语句循环遍历对象的属性：
+	var person={fname:"John",lname:"Doe",age:25}; 
+	for(var i in person){
+		document.write(person[i]+"<br>");
+	}
+(9)
